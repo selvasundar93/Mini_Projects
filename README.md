@@ -21,6 +21,11 @@
 * Spectral Clustering
 * Agglomerative Clustering
 * DBSCAN
+### Anomaly Detection
+* Statistical Process Control
+* Isolation Forest
+* Clustering Based Local Outlier Factor 
+* Autoencoder
 #### Dimensionality Reduction using PCA
 
 ##### Matplotlib and Seaborn libraries are used for plotting the data
