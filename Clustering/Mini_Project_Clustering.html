@@ -14979,7 +14979,7 @@ $$s_k = \sqrt{1+1/B}\sigma_{SS}$$<p>Finally, we choose $K=k$ such that $G_k \geq
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">x_cols</span>
@@ -15156,7 +15156,7 @@ Source: <a href="http://scikit-learn.org/stable/modules/clustering.html">http://
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># funtion to plot</span>
@@ -15185,10 +15185,11 @@ Source: <a href="http://scikit-learn.org/stable/modules/clustering.html">http://
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[67]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Affinity Propagation - Plot with preference=-20</span>
+<span class="kn">from</span> <span class="nn">sklearn.cluster</span> <span class="kn">import</span> <span class="n">AffinityPropagation</span>
 <span class="n">aff1</span> <span class="o">=</span> <span class="n">AffinityPropagation</span><span class="p">(</span><span class="n">preference</span><span class="o">=-</span><span class="mi">20</span><span class="p">,</span><span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 <span class="n">aff_labels1</span> <span class="o">=</span> <span class="n">aff1</span><span class="o">.</span><span class="n">fit_predict</span><span class="p">(</span><span class="n">x_cols</span><span class="p">)</span>
 <span class="n">cluster_plot</span><span class="p">(</span><span class="n">aff_labels1</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="s2">&quot;Affinity Propagation&quot;</span><span class="p">)</span>
@@ -15246,7 +15247,7 @@ Source: <a href="http://scikit-learn.org/stable/modules/clustering.html">http://
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Spectral Clustering - Plot with k=4</span>
@@ -15308,7 +15309,7 @@ Source: <a href="http://scikit-learn.org/stable/modules/clustering.html">http://
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Agglomerative Clustering</span>
@@ -15363,7 +15364,7 @@ Source: <a href="http://scikit-learn.org/stable/modules/clustering.html">http://
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[110]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.cluster</span> <span class="kn">import</span> <span class="n">DBSCAN</span>
@@ -15378,7 +15379,7 @@ Source: <a href="http://scikit-learn.org/stable/modules/clustering.html">http://
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[111]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">unique</span><span class="p">(</span><span class="n">dbscan_labels</span><span class="p">)</span>
@@ -15394,7 +15395,7 @@ Source: <a href="http://scikit-learn.org/stable/modules/clustering.html">http://
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[111]:</div>
+    <div class="prompt output_prompt">Out[25]:</div>
 
 
 
@@ -15411,7 +15412,7 @@ Source: <a href="http://scikit-learn.org/stable/modules/clustering.html">http://
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[117]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># DBSCAN Clustering - plot</span>
