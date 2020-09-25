@@ -27,5 +27,11 @@
 * Clustering Based Local Outlier Factor 
 * Autoencoder
 #### Dimensionality Reduction using PCA
+### Time Series - Forecasting
+* statsmodel - ARIMA
+* Deep Learning - LSTM
+### Spark based Projects
+* Spark SQL
+* Data Wrangling using Spark
 
 ##### Matplotlib and Seaborn libraries are used for plotting the data
