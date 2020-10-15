@@ -5,9 +5,9 @@
 * Pandas with JSON data
 ### SQL with Spark 
 ### Linear Regression
-* Using Scikit Learn and Statsmodel
+* Scikit Learn and Statsmodel
 ### Logistic Regression
-* Using Scikit Learn
+* Scikit Learn
 * k-Fold Cross Validation and GridSearchCV
 ### Tree Based Algorithms
 * Decision Trees
