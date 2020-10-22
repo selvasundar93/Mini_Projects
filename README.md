@@ -30,8 +30,8 @@
 ### Time Series - Forecasting
 * statsmodel - ARIMA
 * Deep Learning - LSTM
-### Spark based Projects
+### Spark Projects
 * Spark SQL
 * Data Wrangling using Spark
-
+* Spark ML
 ##### Matplotlib and Seaborn libraries are used for plotting the data
